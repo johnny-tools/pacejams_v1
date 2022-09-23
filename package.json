@@ -1,0 +1,29 @@
+{
+  "name": "pacejams",
+  "version": "1.0.0",
+  "description": "This is an application that helps runners set their pace by creating a custom playlist set to their perfect pace",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny-tools/pacejams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnny-tools/pacejams/issues"
+  },
+  "homepage": "https://github.com/johnny-tools/pacejams#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
